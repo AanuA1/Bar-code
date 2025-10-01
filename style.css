@@ -1,26 +1,27 @@
-
-
-.container{
-    background-color: rgb(201, 218, 234);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card{
-    background-color:white ;
-    padding: 20px;
-    width: 20%;
-    border-radius: 16px;
+.card {
+  background-color: white;
+  padding: 16px;
+  max-width: 320px;
+  width: 90%;
+  border-radius: 16px;
+  box-shadow: 0;
 }
 
 .card img {
-    height: 300px; 
-    border-radius: 16px;   
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
-h1{
-    font-size:x-large;
-    text-align:center;
+h1 {
+  font-size: x-large;
+  text-align: center;
 }
